@@ -1,0 +1,21 @@
+{
+  "name": "slack-dm-app",
+  "version": "1.0.0",
+  "description": "Slack DM app with OpenAI integration",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js"
+  },
+  "dependencies": {
+    "@slack/bolt": "^3.17.1",
+    "openai": "^4.20.1",
+    "dotenv": "^16.3.1"
+  },
+  "keywords": ["slack", "bot", "dm", "openai"],
+  "author": "",
+  "license": "MIT"
+}
+
+
